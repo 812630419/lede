@@ -51,9 +51,7 @@ jobs:
           git clone https://github.com/shadowsocks/openwrt-shadowsocks.git
           git clone https://github.com/shadowsocks/luci-app-shadowsocks.git
           git clone https://github.com/schen39/luci-app-xunlei.git
-          git clone 
-          
-          
+      
       - name: Update feeds
         run: |
           ./scripts/feeds update -a
